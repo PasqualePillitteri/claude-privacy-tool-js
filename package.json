@@ -1,0 +1,53 @@
+{
+  "name": "claude-privacy-tool",
+  "version": "1.0.0",
+  "description": "Mask personal data before it reaches Claude. Hook for Claude Code CLI + MCP server for Claude Desktop. 100% offline, powered by OpenAI Privacy Filter. Pure JavaScript, zero Python dependency.",
+  "type": "module",
+  "bin": {
+    "claude-privacy-tool": "bin/cli.js"
+  },
+  "scripts": {
+    "start": "node src/mcp-server.js",
+    "hook": "node src/hook.js",
+    "postresponse": "node src/postresponse.js",
+    "test": "node --test tests/*.test.js"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "keywords": [
+    "claude",
+    "claude-code",
+    "claude-desktop",
+    "mcp",
+    "privacy",
+    "pii",
+    "pii-masking",
+    "pseudonymization",
+    "gdpr",
+    "anthropic",
+    "hook",
+    "openai-privacy-filter"
+  ],
+  "author": "Pasquale Pillitteri <pillitteripasquale@gmail.com> (https://pasqualepillitteri.it)",
+  "license": "MIT",
+  "homepage": "https://github.com/pasqualepillitteri/claude-privacy-tool-js#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pasqualepillitteri/claude-privacy-tool-js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pasqualepillitteri/claude-privacy-tool-js/issues"
+  },
+  "dependencies": {
+    "@huggingface/transformers": "^3.3.0",
+    "@modelcontextprotocol/sdk": "^1.0.0"
+  },
+  "files": [
+    "bin/",
+    "src/",
+    "LICENSE",
+    "README.md",
+    "claude-privacy-tool.png"
+  ]
+}
