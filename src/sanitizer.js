@@ -41,15 +41,38 @@ export async function getClassifier() {
 }
 
 /**
+ * Merge adjacent entities of the same group.
+ * Fixes aggregation_strategy="simple" edge case where the last token of a span
+ * is tagged slightly differently and breaks the entity in two adjacent pieces
+ * (e.g. "pasquale pillitter" + "i", "05/02/199" + "0").
+ */
+function mergeConsecutive(entities, maxGap = 1) {
+    if (!entities.length) return [];
+    const sorted = [...entities].sort((a, b) => a.start - b.start);
+    const merged = [{ ...sorted[0] }];
+    for (let i = 1; i < sorted.length; i += 1) {
+        const ent = sorted[i];
+        const last = merged[merged.length - 1];
+        const sameGroup = (ent.entity_group || ent.entity) === (last.entity_group || last.entity);
+        if (sameGroup && ent.start - last.end <= maxGap) {
+            last.end = ent.end;
+            last.score = Math.max(last.score || 0, ent.score || 0);
+        } else {
+            merged.push({ ...ent });
+        }
+    }
+    return merged;
+}
+
+/**
  * Pseudonymize text by replacing PII spans with numbered placeholders.
  * @param {string} text
  * @returns {Promise<{masked: string, mapping: Record<string,string>, stats: Record<string,number>}>}
  */
 export async function sanitize(text) {
     const classifier = await getClassifier();
-    const entities = await classifier(text);
-
-    entities.sort((a, b) => b.start - a.start);
+    const raw = await classifier(text);
+    const entities = mergeConsecutive(raw, 1).sort((a, b) => b.start - a.start);
 
     const mapping = {};
     const counters = {};
