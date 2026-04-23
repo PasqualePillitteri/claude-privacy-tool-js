@@ -8,7 +8,7 @@
 
 **ワンライナーでインストール。Claude到達前に個人データをマスク。**
 
-> 📖 **ブログの完全ガイド:** [OpenAI Privacy Filter: 個人データをオフラインでマスクする無料オープンソースモデル (GPU と CPU)](https://pasqualepillitteri.it/news/1350/openai-privacy-filter-pii-masking-offline-gpu-cpu)
+> 📖 **ブログの完全ガイド:** [OpenAI Privacy Filter: 個人データをオフラインでマスクする無料オープンソースモデル (GPU と CPU)](https://pasqualepillitteri.it/ja/news/1359/openai-privacy-filter-kojin-data-mask-offline-gpu-cpu)
 
 > 🐍 **Python がお好みですか？** `transformers` + `torch` を使用したオリジナル Python 版: [claude-privacy-tool](https://github.com/pasqualepillitteri/claude-privacy-tool)
 
@@ -131,4 +131,4 @@ MIT
 
 Pasquale Pillitteri [pasqualepillitteri.it](https://pasqualepillitteri.it)
 
-参考記事: [OpenAI Privacy Filterガイド](https://pasqualepillitteri.it/news/1350/openai-privacy-filter-pii-masking-offline-gpu-cpu)
+参考記事: [OpenAI Privacy Filterガイド](https://pasqualepillitteri.it/ja/news/1359/openai-privacy-filter-kojin-data-mask-offline-gpu-cpu)

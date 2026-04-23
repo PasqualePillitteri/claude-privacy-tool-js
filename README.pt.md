@@ -8,7 +8,7 @@
 
 **Instalação em uma linha. Mascare os dados pessoais antes que cheguem ao Claude.**
 
-> 📖 **Guia completo no blog:** [OpenAI Privacy Filter: o modelo open-source gratuito que mascara dados pessoais offline (GPU e CPU)](https://pasqualepillitteri.it/news/1350/openai-privacy-filter-pii-masking-offline-gpu-cpu)
+> 📖 **Guia completo no blog:** [OpenAI Privacy Filter: o modelo open-source gratuito que mascara dados pessoais offline (GPU e CPU)](https://pasqualepillitteri.it/pt/news/1358/openai-privacy-filter-mascara-dados-pessoais-offline-gpu-cpu)
 
 > 🐍 **Prefere Python?** Edição Python original com `transformers` + `torch`: [claude-privacy-tool](https://github.com/pasqualepillitteri/claude-privacy-tool)
 
@@ -131,4 +131,4 @@ MIT
 
 Pasquale Pillitteri [pasqualepillitteri.it](https://pasqualepillitteri.it)
 
-Artigo de referência: [Guia OpenAI Privacy Filter](https://pasqualepillitteri.it/news/1350/openai-privacy-filter-pii-masking-offline-gpu-cpu)
+Artigo de referência: [Guia OpenAI Privacy Filter](https://pasqualepillitteri.it/pt/news/1358/openai-privacy-filter-mascara-dados-pessoais-offline-gpu-cpu)

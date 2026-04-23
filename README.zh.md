@@ -8,7 +8,7 @@
 
 **一行命令安装. 在数据发送到 Claude 之前对其进行脱敏.**
 
-> 📖 **博客完整指南:** [OpenAI Privacy Filter: 免费开源模型，可离线屏蔽个人数据 (GPU 和 CPU)](https://pasqualepillitteri.it/news/1350/openai-privacy-filter-pii-masking-offline-gpu-cpu)
+> 📖 **博客完整指南:** [OpenAI Privacy Filter: 免费开源模型，可离线屏蔽个人数据 (GPU 和 CPU)](https://pasqualepillitteri.it/zh/news/1357/openai-privacy-filter-pingbi-geren-shuju-offline-gpu-cpu)
 
 > 🐍 **更喜欢 Python?** 使用 `transformers` + `torch` 的原始 Python 版本: [claude-privacy-tool](https://github.com/pasqualepillitteri/claude-privacy-tool)
 
@@ -131,4 +131,4 @@ MIT
 
 Pasquale Pillitteri [pasqualepillitteri.it](https://pasqualepillitteri.it)
 
-参考文章: [Guida OpenAI Privacy Filter](https://pasqualepillitteri.it/news/1350/openai-privacy-filter-pii-masking-offline-gpu-cpu)
+参考文章: [Guida OpenAI Privacy Filter](https://pasqualepillitteri.it/zh/news/1357/openai-privacy-filter-pingbi-geren-shuju-offline-gpu-cpu)

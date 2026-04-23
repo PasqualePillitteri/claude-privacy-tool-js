@@ -8,7 +8,7 @@
 
 **Tek satırda kurulum. Kişisel verileri Claude'a ulaşmadan önce maskeler.**
 
-> 📖 **Blogda tam kılavuz:** [OpenAI Privacy Filter: kişisel verileri çevrimdışı maskeleyen ücretsiz açık kaynak model (GPU ve CPU)](https://pasqualepillitteri.it/news/1350/openai-privacy-filter-pii-masking-offline-gpu-cpu)
+> 📖 **Blogda tam kılavuz:** [OpenAI Privacy Filter: kişisel verileri çevrimdışı maskeleyen ücretsiz açık kaynak model (GPU ve CPU)](https://pasqualepillitteri.it/tr/news/1355/openai-privacy-filter-kisisel-veri-maskeleme-offline-gpu-cpu)
 
 > 🐍 **Python mı tercih ediyorsunuz?** `transformers` + `torch` ile orijinal Python sürümü: [claude-privacy-tool](https://github.com/pasqualepillitteri/claude-privacy-tool)
 
@@ -131,4 +131,4 @@ MIT
 
 Pasquale Pillitteri [pasqualepillitteri.it](https://pasqualepillitteri.it)
 
-Referans makale: [OpenAI Privacy Filter Rehberi](https://pasqualepillitteri.it/news/1350/openai-privacy-filter-pii-masking-offline-gpu-cpu)
+Referans makale: [OpenAI Privacy Filter Rehberi](https://pasqualepillitteri.it/tr/news/1355/openai-privacy-filter-kisisel-veri-maskeleme-offline-gpu-cpu)
