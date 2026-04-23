@@ -28,7 +28,7 @@ claude-privacy-tool install
 ```
 
 Hepsi bu kadar. Kurulum betiği:
-1. `~/.claude/privacy-tool/runtime` içinde izole bir Node.js runtime oluşturur
+1. Sisteminizdeki Node.js'i kullanır (venv yok, derleme yok)
 2. Modeli indirir (~3 GB, bir kez)
 3. Claude Code'daki kancaları kaydeder (`settings.json`)
 4. Claude Desktop'ta bir MCP sunucusu kaydeder (`claude_desktop_config.json`)

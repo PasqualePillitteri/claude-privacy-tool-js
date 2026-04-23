@@ -28,7 +28,7 @@ claude-privacy-tool install
 ```
 
 Это всё. Установщик:
-1. Создаёт изолированное окружение Node.js runtime в `~/.claude/privacy-tool/runtime`
+1. Использует системный Node.js (без venv, без компиляции)
 2. Скачивает модель (~3 ГБ, однократно)
 3. Регистрирует хуки в Claude Code (`settings.json`)
 4. Регистрирует MCP-сервер в Claude Desktop (`claude_desktop_config.json`)

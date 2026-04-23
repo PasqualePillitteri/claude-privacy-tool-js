@@ -29,7 +29,7 @@ claude-privacy-tool install
 
 Das war's. Der Installer:
 1. Erstellt ein isoliertes Python-runtime in `~/.claude/privacy-tool/runtime`
-2. Lädt das Modell herunter (~3 GB, einmalig)
+2. Lädt das Modell beim ersten Prompt herunter (~3 GB, zwischengespeichert in `~/.claude/privacy-tool/cache/`)
 3. Registriert die Hooks in Claude Code (`settings.json`)
 4. Registriert einen MCP-Server in Claude Desktop (`claude_desktop_config.json`)
 5. Führt einen Smoke-Test aus

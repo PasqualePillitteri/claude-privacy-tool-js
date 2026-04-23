@@ -28,7 +28,7 @@ claude-privacy-tool install
 ```
 
 就这样. 安装脚本会:
-1. 在 `~/.claude/privacy-tool/runtime` 创建独立的 Node.js runtime
+1. 使用系统 Node.js (无 venv, 无编译)
 2. 下载模型 (约 3 GB, 一次性)
 3. 在 Claude Code 中注册 hook (`settings.json`)
 4. 在 Claude Desktop 中注册 MCP 服务器 (`claude_desktop_config.json`)

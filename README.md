@@ -29,7 +29,7 @@ claude-privacy-tool install
 
 That is it. The installer:
 1. Creates an isolated Node.js runtime in `~/.claude/privacy-tool/runtime`
-2. Downloads the model (~3 GB, one time)
+2. Downloads the model on first prompt (~3 GB, cached in `~/.claude/privacy-tool/cache/`)
 3. Registers hooks in Claude Code (`settings.json`)
 4. Registers an MCP server in Claude Desktop (`claude_desktop_config.json`)
 5. Runs a smoke test

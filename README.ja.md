@@ -28,7 +28,7 @@ claude-privacy-tool install
 ```
 
 インストーラー動作:
-1. `~/.claude/privacy-tool/runtime`にNode.js runtime作成
+1. システムのNode.jsを使用 (venv不要、コンパイル不要)
 2. モデル(約3GB、初回のみ)DL
 3. Claude Codeフック登録(`settings.json`)
 4. Claude DesktopにMCP登録(`claude_desktop_config.json`)

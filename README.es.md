@@ -28,7 +28,7 @@ claude-privacy-tool install
 ```
 
 Eso es todo. El instalador:
-1. Crea un runtime Python aislado en `~/.claude/privacy-tool/runtime`
+1. Usa el Node.js de tu sistema (sin venv, sin compilación)
 2. Descarga el modelo (~3 GB, una sola vez)
 3. Registra los hooks en Claude Code (`settings.json`)
 4. Registra un servidor MCP en Claude Desktop (`claude_desktop_config.json`)
