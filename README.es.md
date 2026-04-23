@@ -10,6 +10,8 @@
 
 > 📖 **Guía completa en el blog:** [OpenAI Privacy Filter: el modelo open-source gratuito que enmascara datos personales offline (GPU y CPU)](https://pasqualepillitteri.it/news/1350/openai-privacy-filter-pii-masking-offline-gpu-cpu)
 
+> 🐍 **¿Prefieres Python?** Edición Python original con `transformers` + `torch`: [claude-privacy-tool](https://github.com/pasqualepillitteri/claude-privacy-tool)
+
 Claude Privacy Tool seudonimiza cada prompt que envías a **Claude Code CLI** y cada solicitud realizada por **Claude Desktop**. Nombres, correos, teléfonos, direcciones, IBAN, claves API y fechas se sustituyen por marcadores como `[PRIVATE_PERSON_1]` antes de salir de tu ordenador. Los valores originales permanecen en local en `~/.claude/privacy-tool/mappings/`.
 
 Basado en [OpenAI Privacy Filter](https://huggingface.co/openai/privacy-filter) (Apache 2.0, 1,5B parámetros). Funciona 100% offline en CPU o GPU.

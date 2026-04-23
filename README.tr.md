@@ -10,6 +10,8 @@
 
 > 📖 **Blogda tam kılavuz:** [OpenAI Privacy Filter: kişisel verileri çevrimdışı maskeleyen ücretsiz açık kaynak model (GPU ve CPU)](https://pasqualepillitteri.it/news/1350/openai-privacy-filter-pii-masking-offline-gpu-cpu)
 
+> 🐍 **Python mı tercih ediyorsunuz?** `transformers` + `torch` ile orijinal Python sürümü: [claude-privacy-tool](https://github.com/pasqualepillitteri/claude-privacy-tool)
+
 Claude Privacy Tool, **Claude Code CLI**'ye gönderdiğiniz her istemi ve **Claude Desktop** tarafından yapılan her isteği takma adla korur. İsimler, e-postalar, telefonlar, adresler, IBAN'lar, API anahtarları ve tarihler, bilgisayarınızdan ayrılmadan önce `[PRIVATE_PERSON_1]` gibi yer tutucularla değiştirilir. Orijinal değerler yerel olarak `~/.claude/privacy-tool/mappings/` içinde kalır.
 
 [OpenAI Privacy Filter](https://huggingface.co/openai/privacy-filter) (Apache 2.0, 1,5B parametre) üzerine kuruludur. CPU veya GPU üzerinde %100 çevrimdışı çalışır.

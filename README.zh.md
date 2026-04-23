@@ -10,6 +10,8 @@
 
 > 📖 **博客完整指南:** [OpenAI Privacy Filter: 免费开源模型，可离线屏蔽个人数据 (GPU 和 CPU)](https://pasqualepillitteri.it/news/1350/openai-privacy-filter-pii-masking-offline-gpu-cpu)
 
+> 🐍 **更喜欢 Python?** 使用 `transformers` + `torch` 的原始 Python 版本: [claude-privacy-tool](https://github.com/pasqualepillitteri/claude-privacy-tool)
+
 Claude Privacy Tool 会对你发送给 **Claude Code CLI** 的每个提示词以及 **Claude Desktop** 发出的每个请求进行假名化处理. 姓名, 邮箱, 电话, 地址, IBAN, API key 和日期会在离开你的电脑之前被替换为 `[PRIVATE_PERSON_1]` 之类的占位符. 原始值保留在本地 `~/.claude/privacy-tool/mappings/` 目录下.
 
 基于 [OpenAI Privacy Filter](https://huggingface.co/openai/privacy-filter) (Apache 2.0, 15 亿参数). 在 CPU 或 GPU 上 100% 离线运行.
