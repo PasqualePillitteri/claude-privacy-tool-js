@@ -10,6 +10,8 @@
 
 > 📖 **ブログの完全ガイド:** [OpenAI Privacy Filter: 個人データをオフラインでマスクする無料オープンソースモデル (GPU と CPU)](https://pasqualepillitteri.it/ja/news/1359/openai-privacy-filter-kojin-data-mask-offline-gpu-cpu)
 
+> 📦 **このツールの専用記事:** [Claude Privacy Tool: 個人データが Claude に届く前にマスクする無料ツール (Python + JavaScript)](https://pasqualepillitteri.it/ja/news/1369/claude-privacy-tool-hook-privacy-claude-code-desktop)
+
 > 🐍 **Python がお好みですか？** `transformers` + `torch` を使用したオリジナル Python 版: [claude-privacy-tool](https://github.com/pasqualepillitteri/claude-privacy-tool)
 
 **Claude Code CLI**と**Claude Desktop**の全リクエストを仮名化。氏名、メール、電話、住所、IBAN、APIキー、日付は送信前に`[PRIVATE_PERSON_1]`等へ置換。元値は`~/.claude/privacy-tool/mappings/`に保存。
